@@ -1,3 +1,4 @@
+import algorithms.CompareTriplets;
 import algorithms.SimpleArraySum;
 import algorithms.TimeConversion;
 import algorithms.VeryBigSum;
@@ -14,6 +15,7 @@ public class Main {
         System.out.println("1 - Simple Array Sum");
         System.out.println("2 - Time Conversion");
         System.out.println("3 - Very Big Sum");
+        System.out.println("4 - Compare Triplets");
 
         int number = scan.nextInt();
 
@@ -26,6 +28,9 @@ public class Main {
                 break;
             case 3:
                 new VeryBigSum();
+                break;
+            case 4:
+                new CompareTriplets();
                 break;
         }
     }
