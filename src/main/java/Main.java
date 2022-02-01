@@ -1,5 +1,6 @@
 import algorithms.*;
 
+import javax.sound.sampled.Line;
 import java.util.Scanner;
 
 public class Main {
@@ -15,6 +16,7 @@ public class Main {
         System.out.println("4 - Compare Triplets");
         System.out.println("5 - Lonely Number");
         System.out.println("6 - Grading Students");
+        System.out.println("7 - Line Jumps");
 
         int number = scan.nextInt();
 
@@ -36,6 +38,9 @@ public class Main {
                 break;
             case 6:
                 new GradingStudents();
+                break;
+            case 7:
+                new LineJumps();
                 break;
         }
     }
