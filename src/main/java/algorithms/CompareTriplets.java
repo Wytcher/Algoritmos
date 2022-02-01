@@ -44,10 +44,7 @@ package algorithms;
 //  1 ≤ b[i] ≤ 100
 //  Sample Input 0
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
 
 public class CompareTriplets {
 
@@ -79,15 +76,14 @@ public class CompareTriplets {
         while (ia.hasNext() && ib.hasNext()) {
             int a1 = ia.next();
             int b1 = ib.next();
-            if (a1 > b1){
+            if (a1 > b1) {
                 score.set(0, score.get(0) + 1);
             }
-            if (b1 > a1){
+            if (b1 > a1) {
                 score.set(1, score.get(1) + 1);
             }
         }
 
         System.out.println(score);
     }
-
 }

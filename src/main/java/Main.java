@@ -1,7 +1,4 @@
-import algorithms.CompareTriplets;
-import algorithms.SimpleArraySum;
-import algorithms.TimeConversion;
-import algorithms.VeryBigSum;
+import algorithms.*;
 
 import java.util.Scanner;
 
@@ -16,6 +13,7 @@ public class Main {
         System.out.println("2 - Time Conversion");
         System.out.println("3 - Very Big Sum");
         System.out.println("4 - Compare Triplets");
+        System.out.println("5 - Lonely Number");
 
         int number = scan.nextInt();
 
@@ -31,6 +29,9 @@ public class Main {
                 break;
             case 4:
                 new CompareTriplets();
+                break;
+            case 5:
+                new LonelyNumber();
                 break;
         }
     }
