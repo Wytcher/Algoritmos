@@ -14,6 +14,7 @@ public class Main {
         System.out.println("3 - Very Big Sum");
         System.out.println("4 - Compare Triplets");
         System.out.println("5 - Lonely Number");
+        System.out.println("6 - Grading Students");
 
         int number = scan.nextInt();
 
@@ -32,6 +33,9 @@ public class Main {
                 break;
             case 5:
                 new LonelyNumber();
+                break;
+            case 6:
+                new GradingStudents();
                 break;
         }
     }
